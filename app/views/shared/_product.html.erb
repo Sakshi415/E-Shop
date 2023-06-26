@@ -1,0 +1,17 @@
+<%# <h2><%= product.name %></h2>
+<%# <p><%= product.description %></p> %>
+<%# <p><%= product.price %></p> %> %>
+
+<div class="card">
+  <div class="card-body">
+    <div class="card-title">
+      <p><%= product.name %></p>
+    </div>
+    <div class="card-text">
+      <p><small>SGD</small> <%= product.price %></p>
+    </div>
+    <div class="card-footer">
+    <a href="<%= product_path(@product) %>">View Product</a>
+    </div>
+  </div>
+</div>
